@@ -4,7 +4,7 @@ import pandas as pd
 import isodate
 from googleapiclient.discovery import build
 
-API_KEY =  'AIzaSyCct3byElq54qWQD0L4KD6R6a5p-C8JzgY'
+API_KEY =  'AIzaSyCct3byElq54qWQD0L4KD6R6a5p-C'
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 trending_videos = pd.read_csv(r"E:\Study Mateiral\python projects\youtube data collection\trending_videos.csv")
